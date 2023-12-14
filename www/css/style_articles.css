@@ -1,0 +1,171 @@
+main {
+    display: flex;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+main section:first-child {
+    width: 50%;
+    background-image: url('../images/nicole.jpg');
+    background-size: cover;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main section:first-child h1,
+main section:first-child h2,
+main section:first-child p,
+main section:first-child a {
+    color: white;
+}
+
+main section:first-child header {
+    display: flex;
+    align-items: flex-start;
+    background-image: url(../images/logo_ecole89.jpg);
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: left;
+}
+
+main section:first-child header h1 {
+    margin: 0 0 0 20px;
+    font-weight: 400;
+    text-decoration: underline rgb(43, 76, 242) 1px;
+    margin-left: 8rem;
+
+}
+
+/* main section:first-child header img {
+     width: 50px;
+     height: 50px;
+     margin: auto;
+ } */
+
+main section:first-child div {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.489);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+main section:first-child div h2,
+main section:first-child div p {
+    align-self: flex-end;
+    text-align: end;
+    font-weight: 400;
+
+}
+
+main section:first-child div h2 {
+    font-size: 26px;
+}
+
+main section:first-child div h2 b {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+}
+
+main section:first-child footer {
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+main section:first-child footer a {
+    margin: 0.5rem;
+    text-shadow: 1px 1px 2px black;
+}
+
+main section:last-child {
+    background-color: #f9f9f9;
+    width: 50%;
+    margin: 0;
+    min-height: 100%;
+    display: flexbox;
+    flex-direction: column;
+    padding: 0.5rem;
+    overflow-y: auto;
+}
+
+main section:last-child h1 {
+    margin: 0.5rem 0;
+    text-transform: capitalize;
+}
+
+main section:last-child h2 {
+    font-size: 12px;
+    width: 60px;
+    height: 35px;
+    background-color: #DC5E53;
+    color: white;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    padding-top: 9px;
+    text-align: center;
+}
+
+main section:last-child h2.news {
+    background-color: #98DC62;
+}
+
+main section:last-child h2.work {
+    background-color: #0766F0;
+}
+
+main section:last-child div.info {
+    margin: 1rem 0;
+    display: flex;
+}
+
+.imggg {
+    width: 40px;
+    height: 40px;
+    border: none;
+    padding: none;
+    background-color: none;
+}
+
+main section:last-child div.info h3 {
+    word-break: break-all;  
+    overflow: hidden;
+    text-transform: capitalize;
+    margin: 0 0 0 0.5rem;
+    color: grey;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+main section:last-child div.info h3 strong {
+    color: black;
+}
+
+.imgg {
+    border: black solid 1px;
+    width: 40%;
+    padding: 0.5rem;
+    margin: auto;
+}
+
+.imgg img {
+    
+    background-color: white;
+    background-size: 8px;
+}
+
+main section:last-child p {
+    word-break: break-all;
+    margin: 1rem 0;
+}

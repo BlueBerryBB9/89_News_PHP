@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<!-- saved from url=(0083)http://localhost:1200/db_designer.php?db=zoo&token=87d2247c9d4dc8301b468e2ef9c99dd3 -->
+<html lang="fr" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="referrer" content="no-referrer"><meta name="robots" content="noindex,nofollow"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><link rel="icon" href="http://localhost:1200/favicon.ico" type="image/x-icon"><link rel="shortcut icon" href="http://localhost:1200/favicon.ico" type="image/x-icon"><link rel="stylesheet" type="text/css" href="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/jquery-ui.css"><link rel="stylesheet" type="text/css" href="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/codemirror.css"><link rel="stylesheet" type="text/css" href="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/show-hint.css"><link rel="stylesheet" type="text/css" href="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/lint.css"><link rel="stylesheet" type="text/css" href="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/phpmyadmin.css.php"><link rel="stylesheet" type="text/css" href="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/printview.css" media="print" id="printcss"><title>localhost:1200 / db / zoo | phpMyAdmin 4.7.9</title><script data-cfasync="false" type="text/javascript" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/get_scripts.js.php"></script><script data-cfasync="false" type="text/javascript" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/get_scripts(1).js.php"></script><script data-cfasync="false" type="text/javascript" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/get_scripts(2).js.php"></script><script data-cfasync="false" type="text/javascript" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/get_scripts(3).js.php"></script><script data-cfasync="false" type="text/javascript" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/whitelist.php"></script><script data-cfasync="false" type="text/javascript" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/messages.php"></script><script data-cfasync="false" type="text/javascript" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/get_image.js.php"></script><script data-cfasync="false" type="text/javascript">// <![CDATA[
+PMA_commonParams.setAll({common_query:"?token=87d2247c9d4dc8301b468e2ef9c99dd3",opendb_url:"db_structure.php",collation_connection:"utf8mb4_unicode_ci",lang:"fr",server:"1",table:"",db:"zoo",token:"87d2247c9d4dc8301b468e2ef9c99dd3",text_dir:"ltr",show_databases_navigation_as_tree:"1",pma_text_default_tab:"Parcourir",pma_text_left_default_tab:"Structure",pma_text_left_default_tab2:"",LimitChars:"50",pftext:"P",confirm:"1",LoginCookieValidity:"1440",session_gc_maxlifetime:"1440",logged_in:"1",PMA_VERSION:"4.7.9",auth_type:"cookie",user:"root"});
+ConsoleEnterExecutes=false
+AJAX.scriptHandler.add("jquery/jquery.min.js",0).add("jquery/jquery-migrate-3.0.0.js",0).add("whitelist.php",1).add("sprintf.js",1).add("ajax.js",0).add("keyhandler.js",1).add("jquery/jquery-ui.min.js",0).add("jquery/jquery.cookie.js",0).add("jquery/jquery.mousewheel.js",0).add("jquery/jquery.event.drag-2.2.js",0).add("jquery/jquery-ui-timepicker-addon.js",0).add("jquery/jquery.ba-hashchange-1.3.js",0).add("jquery/jquery.debounce-1.0.5.js",0).add("menu-resizer.js",1).add("cross_framing_protection.js",0).add("rte.js",1).add("tracekit/tracekit.js",1).add("error_report.js",1).add("messages.php",0).add("get_image.js.php",0).add("config.js",1).add("doclinks.js",1).add("functions.js",1).add("navigation.js",1).add("indexes.js",1).add("common.js",1).add("page_settings.js",1).add("shortcuts_handler.js",1).add("jquery/jquery.fullscreen.js",0).add("pmd/designer_db.js",1).add("pmd/designer_objects.js",1).add("pmd/designer_page.js",1).add("pmd/history.js",1).add("pmd/move.js",1).add("pmd/init.js",1).add("codemirror/lib/codemirror.js",0).add("codemirror/mode/sql/sql.js",0).add("codemirror/addon/runmode/runmode.js",0).add("codemirror/addon/hint/show-hint.js",0).add("codemirror/addon/hint/sql-hint.js",0).add("codemirror/addon/lint/lint.js",0).add("codemirror/addon/lint/sql-lint.js",0).add("console.js",1);
+$(function() {AJAX.fireOnload("whitelist.php");AJAX.fireOnload("sprintf.js");AJAX.fireOnload("keyhandler.js");AJAX.fireOnload("menu-resizer.js");AJAX.fireOnload("rte.js");AJAX.fireOnload("tracekit/tracekit.js");AJAX.fireOnload("error_report.js");AJAX.fireOnload("config.js");AJAX.fireOnload("doclinks.js");AJAX.fireOnload("functions.js");AJAX.fireOnload("navigation.js");AJAX.fireOnload("indexes.js");AJAX.fireOnload("common.js");AJAX.fireOnload("page_settings.js");AJAX.fireOnload("shortcuts_handler.js");AJAX.fireOnload("pmd/designer_db.js");AJAX.fireOnload("pmd/designer_objects.js");AJAX.fireOnload("pmd/designer_page.js");AJAX.fireOnload("pmd/history.js");AJAX.fireOnload("pmd/move.js");AJAX.fireOnload("pmd/init.js");AJAX.fireOnload("console.js");});
+// ]]></script><noscript><style>html{display:block}</style></noscript></head><body id="pmd_body" style="margin-bottom: 17.6016px;"><div id="pma_navigation"><div id="pma_navigation_resizer"></div><div id="pma_navigation_collapser">←</div><div id="pma_navigation_content"><div id="pma_navigation_header"><a class="hide navigation_url" href="http://localhost:1200/navigation.php?ajax_request=1&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3"></a><!-- LOGO START -->
+<div id="pmalogo">
+            <a href="http://localhost:1200/index.php?token=87d2247c9d4dc8301b468e2ef9c99dd3">
+        <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/logo_left.png" alt="phpMyAdmin" id="imgpmalogo">            </a>
+    </div>
+<!-- LOGO END --><!-- LINKS START --><div id="navipanellinks"><a href="http://localhost:1200/index.php?token=87d2247c9d4dc8301b468e2ef9c99dd3" title="Accueil"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Accueil" alt="Accueil" class="icon ic_b_home"></a><a href="http://localhost:1200/logout.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" class="logout disableAjax" title="Se déconnecter"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Se déconnecter" alt="Se déconnecter" class="icon ic_s_loggoff"></a><a href="http://localhost:1200/doc/html/index.html" target="documentation" title="Documentation de phpMyAdmin"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Documentation de phpMyAdmin" alt="Documentation de phpMyAdmin" class="icon ic_b_docs"></a><a href="http://localhost:1200/url.php?url=https%3A%2F%2Fdev.mysql.com%2Fdoc%2Frefman%2F5.7%2Fen%2Findex.html" target="mysql_doc" title="Documentation"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_sqlhelp"></a><a href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#" id="pma_navigation_settings_icon" title="Paramètres du panneau de navigation"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Paramètres du panneau de navigation" alt="Paramètres du panneau de navigation" class="icon ic_s_cog"></a><a href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#" id="pma_navigation_reload" title="Rechercher le panneau de navigation"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Rechercher le panneau de navigation" alt="Rechercher le panneau de navigation" class="icon ic_s_reload"></a></div><!-- LINKS ENDS --><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/ajax_clock_small.gif" title="Chargement en cours…" alt="Chargement en cours…" style="visibility: hidden; display:none" class="throbber"></div><div id="pma_navigation_tree" class="list_container synced highlight" style="height: 674.398px;"><div class="pma_quick_warp"><div class="drop_list"><span title="Tables récentes" class="drop_button">Récentes</span><ul id="pma_recent_list"><li class="warp_link"><a href="http://localhost:1200/tbl_recent_favorite.php?db=zoo&amp;table=alimentation_animal&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3">`zoo`.`alimentation_animal`</a></li><li class="warp_link"><a href="http://localhost:1200/tbl_recent_favorite.php?db=zoo&amp;table=traitement_animal&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3">`zoo`.`traitement_animal`</a></li><li class="warp_link"><a href="http://localhost:1200/tbl_recent_favorite.php?db=zoo&amp;table=animaux&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3">`zoo`.`animaux`</a></li><li class="warp_link"><a href="http://localhost:1200/tbl_recent_favorite.php?db=zoo&amp;table=enclos&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3">`zoo`.`enclos`</a></li><li class="warp_link"><a href="http://localhost:1200/tbl_recent_favorite.php?db=zoo&amp;table=EMPLOYE&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3">`zoo`.`EMPLOYE`</a></li><li class="warp_link"><a href="http://localhost:1200/tbl_recent_favorite.php?db=zoo&amp;table=espece&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3">`zoo`.`espece`</a></li><li class="warp_link"><a href="http://localhost:1200/tbl_recent_favorite.php?db=zoo&amp;table=traitements&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3">`zoo`.`traitements`</a></li><li class="warp_link"><a href="http://localhost:1200/tbl_recent_favorite.php?db=zoo&amp;table=alimentation&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3">`zoo`.`alimentation`</a></li><li class="warp_link"><a href="http://localhost:1200/tbl_recent_favorite.php?db=villes_fr&amp;table=villes_france_free&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3">`villes_fr`.`villes_france_free`</a></li><li class="warp_link"><a href="http://localhost:1200/tbl_recent_favorite.php?db=villes_fr&amp;table=departement&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3">`villes_fr`.`departement`</a></li></ul></div><div class="drop_list"><span title="Tables préférées" class="drop_button">Préférées</span><ul id="pma_favorite_list"><li class="warp_link">Pas de tables préférées.</li></ul></div><div class="clearfloat"></div></div><div class="clearfloat"></div><ul><!-- CONTROLS START --><li id="navigation_controls_outer"><div id="navigation_controls"><a href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#" id="pma_navigation_collapse" title="Tout réduire"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/s_collapseall.png" title="Tout réduire" alt="Tout réduire"></a><a href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#" id="pma_navigation_sync" title="Supprimer la liaison au panneau principal"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Supprimer la liaison au panneau principal" alt="Supprimer la liaison au panneau principal" class="icon ic_s_link"></a></div></li><!-- CONTROLS ENDS --></ul><div id="pma_navigation_tree_content" style="height: 628.898px;"><ul><li class="first new_database italics"><div class="block"><i class="first"></i></div><div class="block "><a href="http://localhost:1200/server_databases.php?server=1&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="" alt="" class="icon ic_b_newdb"></a></div><a class="hover_show_full" href="http://localhost:1200/server_databases.php?server=1&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" title="">Nouvelle base de données</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#"><span class="hide aPath">cm9vdA==.aW5mb3JtYXRpb25fc2NoZW1h</span><span class="hide vPath">cm9vdA==.aW5mb3JtYXRpb25fc2NoZW1h</span><span class="hide pos">0</span><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Développer/Réduire" alt="Développer/Réduire" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost:1200/db_operations.php?server=1&amp;db=information_schema&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Opérations sur base de données" alt="Opérations sur base de données" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost:1200/db_structure.php?server=1&amp;db=information_schema&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" title="Structure">information_schema</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#"><span class="hide aPath">cm9vdA==.bXlzcWw=</span><span class="hide vPath">cm9vdA==.bXlzcWw=</span><span class="hide pos">0</span><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Développer/Réduire" alt="Développer/Réduire" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost:1200/db_operations.php?server=1&amp;db=mysql&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Opérations sur base de données" alt="Opérations sur base de données" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost:1200/db_structure.php?server=1&amp;db=mysql&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" title="Structure">mysql</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#"><span class="hide aPath">cm9vdA==.bXlzcWxfdGVzdHk=</span><span class="hide vPath">cm9vdA==.bXlzcWxfdGVzdHk=</span><span class="hide pos">0</span><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Développer/Réduire" alt="Développer/Réduire" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost:1200/db_operations.php?server=1&amp;db=mysql_testy&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Opérations sur base de données" alt="Opérations sur base de données" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost:1200/db_structure.php?server=1&amp;db=mysql_testy&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" title="Structure">mysql_testy</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#"><span class="hide aPath">cm9vdA==.cGVyZm9ybWFuY2Vfc2NoZW1h</span><span class="hide vPath">cm9vdA==.cGVyZm9ybWFuY2Vfc2NoZW1h</span><span class="hide pos">0</span><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Développer/Réduire" alt="Développer/Réduire" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost:1200/db_operations.php?server=1&amp;db=performance_schema&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Opérations sur base de données" alt="Opérations sur base de données" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost:1200/db_structure.php?server=1&amp;db=performance_schema&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" title="Structure">performance_schema</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#"><span class="hide aPath">cm9vdA==.UHJvamV0IGFuaW1l</span><span class="hide vPath">cm9vdA==.UHJvamV0IGFuaW1l</span><span class="hide pos">0</span><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Développer/Réduire" alt="Développer/Réduire" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost:1200/db_operations.php?server=1&amp;db=Projet+anime&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Opérations sur base de données" alt="Opérations sur base de données" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost:1200/db_structure.php?server=1&amp;db=Projet+anime&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" title="Structure">Projet anime</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#"><span class="hide aPath">cm9vdA==.U3Rhcnlfd2Fyc3k=</span><span class="hide vPath">cm9vdA==.U3Rhcnlfd2Fyc3k=</span><span class="hide pos">0</span><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Développer/Réduire" alt="Développer/Réduire" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost:1200/db_operations.php?server=1&amp;db=Stary_warsy&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Opérations sur base de données" alt="Opérations sur base de données" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost:1200/db_structure.php?server=1&amp;db=Stary_warsy&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" title="Structure">Stary_warsy</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#"><span class="hide aPath">cm9vdA==.c3lz</span><span class="hide vPath">cm9vdA==.c3lz</span><span class="hide pos">0</span><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Développer/Réduire" alt="Développer/Réduire" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost:1200/db_operations.php?server=1&amp;db=sys&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Opérations sur base de données" alt="Opérations sur base de données" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost:1200/db_structure.php?server=1&amp;db=sys&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" title="Structure">sys</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#"><span class="hide aPath">cm9vdA==.dGVzdA==</span><span class="hide vPath">cm9vdA==.dGVzdA==</span><span class="hide pos">0</span><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Développer/Réduire" alt="Développer/Réduire" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost:1200/db_operations.php?server=1&amp;db=test&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Opérations sur base de données" alt="Opérations sur base de données" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost:1200/db_structure.php?server=1&amp;db=test&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" title="Structure">test</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#"><span class="hide aPath">cm9vdA==.dmlsbGVzX2Zy</span><span class="hide vPath">cm9vdA==.dmlsbGVzX2Zy</span><span class="hide pos">0</span><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Développer/Réduire" alt="Développer/Réduire" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost:1200/db_operations.php?server=1&amp;db=villes_fr&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Opérations sur base de données" alt="Opérations sur base de données" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost:1200/db_structure.php?server=1&amp;db=villes_fr&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" title="Structure">villes_fr</a><div class="clearfloat"></div></li><li class="last database selected"><div class="block"><i></i><a class="expander loaded" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#"><span class="hide aPath">cm9vdA==.em9v</span><span class="hide vPath">cm9vdA==.em9v</span><span class="hide pos">0</span><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="" alt="" class="icon ic_b_minus"></a></div><div class="block "><a href="http://localhost:1200/db_operations.php?server=1&amp;db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Opérations sur base de données" alt="Opérations sur base de données" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost:1200/db_structure.php?server=1&amp;db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" title="Structure">zoo</a><div class="clearfloat"></div><div class="list_container"><ul><span class="hide pos2_name">tables</span><span class="hide pos2_value">0</span><li class="new_table italics new_table italics"><div class="block"><i></i><span class="hide pos2_name">tables</span><span class="hide pos2_value">0</span></div><div class="block "><a href="http://localhost:1200/tbl_create.php?server=1&amp;db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Nouvelle table" alt="Nouvelle table" class="icon ic_b_table_add"></a></div><a class="hover_show_full" href="http://localhost:1200/tbl_create.php?server=1&amp;db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" title="">Nouvelle table</a><div class="clearfloat"></div></li><li class="table table"><div class="block"><i></i><b></b><a class="expander" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#"><span class="hide aPath">cm9vdA==.em9v.dGFibGVz.YWxpbWVudGF0aW9u</span><span class="hide vPath">cm9vdA==.em9v.VGFibGVz.YWxpbWVudGF0aW9u</span><span class="hide pos">0</span><span class="hide pos2_name">tables</span><span class="hide pos2_value">0</span><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Développer/Réduire" alt="Développer/Réduire" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost:1200/tbl_structure.php?server=1&amp;db=zoo&amp;table=alimentation&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Structure" alt="Structure" class="icon ic_b_props"></a></div><a class="hover_show_full" href="http://localhost:1200/sql.php?server=1&amp;db=zoo&amp;table=alimentation&amp;pos=0&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" title="Parcourir">alimentation</a><div class="clearfloat"></div></li><li class="table table"><div class="block"><i></i><b></b><a class="expander" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#"><span class="hide aPath">cm9vdA==.em9v.dGFibGVz.YWxpbWVudGF0aW9uX2FuaW1hbA==</span><span class="hide vPath">cm9vdA==.em9v.VGFibGVz.YWxpbWVudGF0aW9uX2FuaW1hbA==</span><span class="hide pos">0</span><span class="hide pos2_name">tables</span><span class="hide pos2_value">0</span><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Développer/Réduire" alt="Développer/Réduire" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost:1200/tbl_structure.php?server=1&amp;db=zoo&amp;table=alimentation_animal&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Structure" alt="Structure" class="icon ic_b_props"></a></div><a class="hover_show_full" href="http://localhost:1200/sql.php?server=1&amp;db=zoo&amp;table=alimentation_animal&amp;pos=0&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" title="Parcourir">alimentation_animal</a><div class="clearfloat"></div></li><li class="table table"><div class="block"><i></i><b></b><a class="expander" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#"><span class="hide aPath">cm9vdA==.em9v.dGFibGVz.YW5pbWF1eA==</span><span class="hide vPath">cm9vdA==.em9v.VGFibGVz.YW5pbWF1eA==</span><span class="hide pos">0</span><span class="hide pos2_name">tables</span><span class="hide pos2_value">0</span><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Développer/Réduire" alt="Développer/Réduire" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost:1200/tbl_structure.php?server=1&amp;db=zoo&amp;table=animaux&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Structure" alt="Structure" class="icon ic_b_props"></a></div><a class="hover_show_full" href="http://localhost:1200/sql.php?server=1&amp;db=zoo&amp;table=animaux&amp;pos=0&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" title="Parcourir">animaux</a><div class="clearfloat"></div></li><li class="table table"><div class="block"><i></i><b></b><a class="expander" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#"><span class="hide aPath">cm9vdA==.em9v.dGFibGVz.ZW1wbG95ZQ==</span><span class="hide vPath">cm9vdA==.em9v.VGFibGVz.ZW1wbG95ZQ==</span><span class="hide pos">0</span><span class="hide pos2_name">tables</span><span class="hide pos2_value">0</span><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Développer/Réduire" alt="Développer/Réduire" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost:1200/tbl_structure.php?server=1&amp;db=zoo&amp;table=employe&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Structure" alt="Structure" class="icon ic_b_props"></a></div><a class="hover_show_full" href="http://localhost:1200/sql.php?server=1&amp;db=zoo&amp;table=employe&amp;pos=0&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" title="Parcourir">employe</a><div class="clearfloat"></div></li><li class="table table"><div class="block"><i></i><b></b><a class="expander" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#"><span class="hide aPath">cm9vdA==.em9v.dGFibGVz.ZW5jbG9z</span><span class="hide vPath">cm9vdA==.em9v.VGFibGVz.ZW5jbG9z</span><span class="hide pos">0</span><span class="hide pos2_name">tables</span><span class="hide pos2_value">0</span><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Développer/Réduire" alt="Développer/Réduire" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost:1200/tbl_structure.php?server=1&amp;db=zoo&amp;table=enclos&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Structure" alt="Structure" class="icon ic_b_props"></a></div><a class="hover_show_full" href="http://localhost:1200/sql.php?server=1&amp;db=zoo&amp;table=enclos&amp;pos=0&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" title="Parcourir">enclos</a><div class="clearfloat"></div></li><li class="table table"><div class="block"><i></i><b></b><a class="expander" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#"><span class="hide aPath">cm9vdA==.em9v.dGFibGVz.ZXNwZWNl</span><span class="hide vPath">cm9vdA==.em9v.VGFibGVz.ZXNwZWNl</span><span class="hide pos">0</span><span class="hide pos2_name">tables</span><span class="hide pos2_value">0</span><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Développer/Réduire" alt="Développer/Réduire" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost:1200/tbl_structure.php?server=1&amp;db=zoo&amp;table=espece&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Structure" alt="Structure" class="icon ic_b_props"></a></div><a class="hover_show_full" href="http://localhost:1200/sql.php?server=1&amp;db=zoo&amp;table=espece&amp;pos=0&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" title="Parcourir">espece</a><div class="clearfloat"></div></li><li class="table table"><div class="block"><i></i><b></b><a class="expander" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#"><span class="hide aPath">cm9vdA==.em9v.dGFibGVz.dHJhaXRlbWVudHM=</span><span class="hide vPath">cm9vdA==.em9v.VGFibGVz.dHJhaXRlbWVudHM=</span><span class="hide pos">0</span><span class="hide pos2_name">tables</span><span class="hide pos2_value">0</span><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Développer/Réduire" alt="Développer/Réduire" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost:1200/tbl_structure.php?server=1&amp;db=zoo&amp;table=traitements&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Structure" alt="Structure" class="icon ic_b_props"></a></div><a class="hover_show_full" href="http://localhost:1200/sql.php?server=1&amp;db=zoo&amp;table=traitements&amp;pos=0&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" title="Parcourir">traitements</a><div class="clearfloat"></div></li><li class="table last table"><div class="block"><i></i><a class="expander" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#"><span class="hide aPath">cm9vdA==.em9v.dGFibGVz.dHJhaXRlbWVudF9hbmltYWw=</span><span class="hide vPath">cm9vdA==.em9v.VGFibGVz.dHJhaXRlbWVudF9hbmltYWw=</span><span class="hide pos">0</span><span class="hide pos2_name">tables</span><span class="hide pos2_value">0</span><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Développer/Réduire" alt="Développer/Réduire" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost:1200/tbl_structure.php?server=1&amp;db=zoo&amp;table=traitement_animal&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Structure" alt="Structure" class="icon ic_b_props"></a></div><a class="hover_show_full" href="http://localhost:1200/sql.php?server=1&amp;db=zoo&amp;table=traitement_animal&amp;pos=0&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" title="Parcourir">traitement_animal</a><div class="clearfloat"></div></li></ul></div></li></ul></div></div><div id="pma_navi_settings_container"></div></div><div class="pma_drop_handler">Déposer des fichiers ici</div><div class="pma_sql_import_status"><h2>SQL upload ( <span class="pma_import_count">0</span> ) <span class="close">x</span><span class="minimize">-</span></h2><div></div></div></div><div id="prefs_autoload" class="notice print_ignore" style="display:none">
+    <form action="http://localhost:1200/prefs_manage.php" method="post" class="disableAjax">
+        <input type="hidden" name="token" value="87d2247c9d4dc8301b468e2ef9c99dd3">        <input type="hidden" name="json" value="">
+        <input type="hidden" name="submit_import" value="1">
+        <input type="hidden" name="return_url" value="db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3">
+        Ce navigateur contient une configuration phpMyAdmin pour ce domaine. Faut-il l'importer dans la session courante ?        <br>
+        <a href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#yes">Oui</a>
+        / <a href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#no">Non</a>
+        / <a href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#delete">Supprimer les paramètres </a>
+    </form>
+</div>
+<noscript><div class="error"><img src="themes/dot.gif" title="" alt="" class="icon ic_s_error" /> JavaScript doit être activé !</div></noscript><div id="floating_menubar"></div><div id="serverinfo"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="" alt="" class="icon ic_s_host item"><a href="http://localhost:1200/index.php?token=87d2247c9d4dc8301b468e2ef9c99dd3" class="item">Serveur: db</a><span class="separator item">&nbsp;»</span><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="" alt="" class="icon ic_s_db item"><a href="http://localhost:1200/db_structure.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" class="item">Base de données: zoo</a><div class="clearfloat"></div></div><div id="topmenucontainer" class="menucontainer"><ul id="topmenu" class="resizable-menu"><li>
+
+            <a href="http://localhost:1200/db_structure.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" class="tab">
+            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Structure" alt="Structure" class="icon ic_b_props">&nbsp;Structure            </a>
+        </li>
+<li>
+
+            <a href="http://localhost:1200/db_sql.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" class="tab">
+            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="SQL" alt="SQL" class="icon ic_b_sql">&nbsp;SQL            </a>
+        </li>
+<li>
+
+            <a href="http://localhost:1200/db_search.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" class="tab">
+            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Rechercher" alt="Rechercher" class="icon ic_b_search">&nbsp;Rechercher            </a>
+        </li>
+<li>
+
+            <a href="http://localhost:1200/db_qbe.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" class="tab">
+            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Requête" alt="Requête" class="icon ic_s_db">&nbsp;Requête            </a>
+        </li>
+<li>
+
+            <a href="http://localhost:1200/db_export.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" class="tab">
+            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Exporter" alt="Exporter" class="icon ic_b_export">&nbsp;Exporter            </a>
+        </li>
+<li>
+
+            <a href="http://localhost:1200/db_import.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" class="tab">
+            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Importer" alt="Importer" class="icon ic_b_import">&nbsp;Importer            </a>
+        </li>
+<li>
+
+            <a href="http://localhost:1200/db_operations.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" class="tab">
+            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Opérations" alt="Opérations" class="icon ic_b_tblops">&nbsp;Opérations            </a>
+        </li>
+<li>
+
+            <a href="http://localhost:1200/server_privileges.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3&amp;checkprivsdb=zoo&amp;viewing_mode=db" class="tab">
+            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Privilèges" alt="Privilèges" class="icon ic_s_rights">&nbsp;Privilèges            </a>
+        </li>
+<li>
+
+            <a href="http://localhost:1200/db_routines.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" class="tab">
+            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Procédures stockées" alt="Procédures stockées" class="icon ic_b_routines">&nbsp;Procédures stockées            </a>
+        </li>
+
+
+
+<li class="submenu shown active" style=""><a href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#" class="nowrap tabactive"><img alt="" title="" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" class="icon ic_b_more">Plus</a><ul class="notonly"><li>
+
+            <a href="http://localhost:1200/db_events.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" class="tab">
+            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Évènements" alt="Évènements" class="icon ic_b_events">&nbsp;Évènements            </a>
+        </li><li>
+
+            <a href="http://localhost:1200/db_triggers.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" class="tab">
+            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Déclencheurs" alt="Déclencheurs" class="icon ic_b_triggers">&nbsp;Déclencheurs            </a>
+        </li><li class="active">
+
+            <a href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" id="designer_tab" class="tabactive">
+            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Concepteur" alt="Concepteur" class="icon ic_b_relations">&nbsp;Concepteur            </a>
+        </li></ul></li><div class="clearfloat"></div></ul>
+</div>
+<span id="page_nav_icons"><span id="lock_page_icon"></span><span id="page_settings_icon"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Paramètres relatifs à la page" alt="Paramètres relatifs à la page" class="icon ic_s_cog"></span><a id="goto_pagetop" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Cliquer sur la barre pour faire défiler en haut de page" alt="Cliquer sur la barre pour faire défiler en haut de page" class="icon ic_s_top"></a></span><div id="pma_console_container">
+    <div id="pma_console">
+        <!-- Console toolbar -->
+        <div class="toolbar collapsed">
+            <div class="switch_button console_switch">
+            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Console de requête SQL" alt="Console de requête SQL" class="icon ic_console">            <span> Console de requêtes SQL </span>
+        </div>
+            <div class="button clear">
+                        <span> Effacer </span>
+        </div>
+            <div class="button history">
+                        <span> Historique </span>
+        </div>
+            <div class="button options">
+                        <span> Options </span>
+        </div>
+            <div class="button bookmarks">
+                        <span> Signets </span>
+        </div>
+            <div class="button debug hide">
+                        <span> Déboguer SQL </span>
+        </div>
+    </div>
+        <!-- Toolbar end -->
+        <!-- Console messages -->
+        <div class="content" style="height: 92px; margin-bottom: -98.2422px; display: none;">
+            <div class="console_message_container">
+                <div class="message welcome binded">
+                    <span id="instructions-0">
+                        Faire Ctrl+Entrée pour exécuter la requête                    </span>
+                    <span class="hide" id="instructions-1">
+                        Faire Entrée pour exécuter la requête                    </span>
+                </div>
+                            </div> <!-- console_message_container -->
+            <div class="query_input">
+                <span class="console_query_input"><div class="CodeMirror cm-s-pma CodeMirror-wrap"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 16px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;" tabindex="0"></textarea></div><div class="CodeMirror-vscrollbar" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 16px; margin-bottom: -15px; border-right-width: 15px; min-height: 16px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines"><div style="position: relative; outline: none;"><div class="CodeMirror-measure"><span><span>​</span>x</span></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 0px; top: 0px; height: 15.5px;">&nbsp;</div></div><div class="CodeMirror-code"><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div></div></div></div></div><div style="position: absolute; height: 15px; width: 1px; border-bottom: 0px solid transparent; top: 16px;"></div><div class="CodeMirror-gutters" style="height: 31px;"><div class="CodeMirror-gutter CodeMirror-lint-markers"></div></div></div></div></span>
+            </div>
+        </div> <!-- message end -->
+        <!-- Drak the console with other cards over it -->
+        <div class="mid_layer"></div>
+        <!-- Debug SQL card -->
+        <div class="card ungrouped" id="debug_console">
+            <div class="toolbar ">
+            <div class="button order order_asc active">
+                        <span> croissant </span>
+        </div>
+            <div class="button order order_desc">
+                        <span> décroissant </span>
+        </div>
+            <div class="text">
+                        <span> Ordre : </span>
+        </div>
+            <div class="switch_button">
+                        <span> Déboguer SQL </span>
+        </div>
+            <div class="button order_by sort_count">
+                        <span> Nombre </span>
+        </div>
+            <div class="button order_by sort_exec active">
+                        <span> Ordre d'exécution </span>
+        </div>
+            <div class="button order_by sort_time">
+                        <span> Temps nécessaire </span>
+        </div>
+            <div class="text">
+                        <span> Trier par : </span>
+        </div>
+            <div class="button group_queries">
+                        <span> Regrouper les requêtes </span>
+        </div>
+            <div class="button ungroup_queries">
+                        <span> Dissocier les groupes </span>
+        </div>
+    </div>
+            <div class="content debug" style="height: 92px;">
+                <div class="message welcome binded">Une erreur s'est produite lors de l'obtention des informations de débogage SQL.</div>
+                <div class="debugLog"></div>
+            </div> <!-- Content -->
+            <div class="templates">
+                <div class="debug_query action_content">
+            <span class="action collapse">
+            Réduire                    </span>
+            <span class="action expand">
+            Développer                    </span>
+            <span class="action dbg_show_trace">
+            Afficher le suivi                    </span>
+            <span class="action dbg_hide_trace">
+            Masquer le suivi                    </span>
+            <span class="text count hide">
+            Nombre                            : <span>  </span>
+                    </span>
+            <span class="text time">
+            Temps nécessaire                            : <span>  </span>
+                    </span>
+    </div>
+            </div> <!-- Template -->
+        </div> <!-- Debug SQL card -->
+                <!-- Options card: -->
+        <div class="card" id="pma_console_options">
+            <div class="toolbar ">
+            <div class="switch_button">
+                        <span> Options </span>
+        </div>
+            <div class="button default">
+                        <span> Définir par défaut </span>
+        </div>
+    </div>
+            <div class="content" style="height: 92px;">
+                <label>
+                    <input type="checkbox" name="always_expand">Toujours développer les messages                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="start_history">Afficher l'historique des requêtes au démarrage                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="current_query">Afficher la requête de navigation courante                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="enter_executes">
+                        Exécuter les requêtes avec Entrée et insérer une nouvelle ligne avec Maj+Entrée. Ce choix peut être rendu permanent via les paramètres.                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="dark_theme">Passer au thème sombre                </label>
+                <br>
+            </div>
+        </div> <!-- Options card -->
+        <div class="templates">
+            <!-- Templates for console message actions -->
+            <div class="query_actions">
+            <span class="action collapse">
+            Réduire                    </span>
+            <span class="action expand">
+            Développer                    </span>
+            <span class="action requery">
+            Exécuter la requête à nouveau                    </span>
+            <span class="action edit">
+            Éditer                    </span>
+            <span class="action explain">
+            Expliquer                    </span>
+            <span class="action profiling">
+            Profilage                    </span>
+            <span class="action bookmark">
+            Signet                    </span>
+            <span class="text failed">
+            La requête a échoué                    </span>
+            <span class="text targetdb">
+            Base de données                            : <span>  </span>
+                    </span>
+            <span class="text query_time">
+            Daté du                            : <span>  </span>
+                    </span>
+    </div>
+        </div>
+    </div> <!-- #console end -->
+</div> <!-- #console_container end -->
+<div id="page_content" style="margin-left: 3px;"><div id="loading_parent"></div><!-- Do not expand HTML here, invisible characters will make javascript crash -->
+<div id="script_server" class="hide">1</div>
+<div id="script_db" class="hide">zoo</div>
+<div id="script_tables" class="hide">{"j_tabs":{"zoo.alimentation":1,"zoo.alimentation_animal":1,"zoo.animaux":1,"zoo.employe":1,"zoo.enclos":1,"zoo.espece":1,"zoo.traitements":1,"zoo.traitement_animal":1},"h_tabs":{"zoo.alimentation":1,"zoo.alimentation_animal":1,"zoo.animaux":1,"zoo.employe":1,"zoo.enclos":1,"zoo.espece":1,"zoo.traitements":1,"zoo.traitement_animal":1}}</div>
+<div id="script_contr" class="hide">[{"foreign_key_aliment_mange":{"zoo.alimentation_animal":{"id_alimentation_mangee":["zoo.alimentation","id"]}}},{"foreign_key_animal_mange":{"zoo.alimentation_animal":{"id_animal_mange":["zoo.animaux","id"]}}},{"foreign_key_appartient":{"zoo.animaux":{"id_appartient":["zoo.espece","id"]}}},{"foreign_key_entretient":{"zoo.animaux":{"id_entretenu":["zoo.employe","id"]}}},{"foreign_key_habite":{"zoo.animaux":{"id_habite":["zoo.enclos","id"]}}},{"foreign_key_animal_besoin":{"zoo.traitement_animal":{"id_besoin_animal":["zoo.animaux","id"]}}},{"foreign_key_medicament_consomme":{"zoo.traitement_animal":{"id_medicament_consomme":["zoo.traitements","id"]}}}]</div>
+<div id="script_display_field" class="hide">{"alimentation":"compsition","animaux":"nom","employe":"telephone","enclos":"emplacement","espece":"nom_commun","traitements":"medicament"}</div>
+<div id="script_display_page" class="hide"></div>
+<div id="pmd_tables_enabled" class="hide"></div>
+    <div id="name-panel" style="overflow:hidden">
+        <span id="page_name" style="border:none">Sans titre</span>
+        <span id="saved_state" style="border:none">*</span>
+    </div>
+<div class="pmd_header side-menu" id="side_menu">
+    <a class="M_butt" id="key_Show_left_menu" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#">
+        <img title="Afficher/Masquer la liste des tables" alt="v" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/downarrow2_m.png" data-down="./themes/pmahomme/img/pmd/downarrow2_m.png" data-up="./themes/pmahomme/img/pmd/uparrow2_m.png">
+        <span class="hide hidable" style="display: none;">
+            Afficher/Masquer la liste des tables        </span>
+    </a>
+    <a href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#" id="toggleFullscreen" class="M_butt">
+        <img title="Voir en plein écran" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/viewInFullscreen.png" data-enter="./themes/pmahomme/img/pmd/viewInFullscreen.png" data-exit="./themes/pmahomme/img/pmd/exitFullscreen.png">
+        <span class="hide hidable" data-exit="Quitter le plein écran" data-enter="Voir en plein écran" style="display: none;">
+            Voir en plein écran        </span>
+    </a>
+            <a id="newPage" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#" class="M_butt">
+            <img title="Nouvelle page" alt="" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/page_add.png">
+            <span class="hide hidable" style="display: none;">
+                Nouvelle page            </span>
+        </a>
+        <a href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#" id="editPage" class="M_butt ajax">
+            <img title="Ouvrir la page" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/page_edit.png">
+            <span class="hide hidable" style="display: none;">
+                Ouvrir la page            </span>
+        </a>
+        <a href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#" id="savePos" class="M_butt">
+            <img title="Enregistrer la page" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/save.png">
+            <span class="hide hidable" style="display: none;">
+                Enregistrer la page            </span>
+        </a>
+        <a href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#" id="SaveAs" class="M_butt ajax">
+            <img title="Enregistrer la page sous" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/save_as.png">
+            <span class="hide hidable" style="display: none;">
+                Enregistrer la page sous            </span>
+        </a>
+        <a href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#" id="delPages" class="M_butt ajax">
+            <img title="Supprimer les pages" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/page_delete.png">
+            <span class="hide hidable" style="display: none;">
+                Supprimer les pages            </span>
+        </a>
+        <a href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#" id="StartTableNew" class="M_butt">
+            <img title="Nouvelle table" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/table.png">
+            <span class="hide hidable" style="display: none;">
+                Nouvelle table            </span>
+        </a>
+        <a href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#" class="M_butt" id="rel_button">
+            <img title="Nouvelle relation" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/relation.png">
+            <span class="hide hidable" style="display: none;">
+                Nouvelle relation            </span>
+        </a>
+        <a href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#" class="M_butt" id="display_field_button">
+            <img title="Choisir la colonne à afficher" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/display_field.png">
+            <span class="hide hidable" style="display: none;">
+                Choisir la colonne à afficher            </span>
+        </a>
+        <a href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#" id="reloadPage" class="M_butt">
+            <img title="Recharger" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/reload.png">
+            <span class="hide hidable" style="display: none;">
+                Recharger            </span>
+        </a>
+        <a href="http://localhost:1200/doc/html/faq.html#faq6-31" target="documentation" class="M_butt">
+            <img title="Aide" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/help.png">
+            <span class="hide hidable" style="display: none;">
+                Aide            </span>
+        </a>
+        <a href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#" class="M_butt" id="angular_direct_button">
+        <img title="Liens angulaires / Liens directs" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/ang_direct.png">
+        <span class="hide hidable" style="display: none;">
+            Liens angulaires / Liens directs        </span>
+    </a>
+    <a href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#" class="M_butt" id="grid_button">
+        <img title="Accrocher à la grille" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/grid.png">
+        <span class="hide hidable" style="display: none;">
+            Accrocher à la grille        </span>
+    </a>
+    <a href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#" class="M_butt" id="key_SB_all">
+        <img title="Agrandir/Réduire tout" alt="v" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/downarrow1.png" data-down="./themes/pmahomme/img/pmd/downarrow1.png" data-right="./themes/pmahomme/img/pmd/rightarrow1.png">
+        <span class="hide hidable" style="display: none;">
+            Agrandir/Réduire tout        </span>
+    </a>
+    <a href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#" id="SmallTabInvert" class="M_butt">
+        <img title="Commuter entre agrandir/réduire" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/bottom.png">
+        <span class="hide hidable" style="display: none;">
+            Commuter entre agrandir/réduire        </span>
+    </a>
+    <a href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#" id="relLineInvert" class="M_butt_Selected_down">
+        <img title="Commuter les lignes de relations" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/toggle_lines.png">
+        <span class="hide hidable" style="display: none;">
+            Commuter les lignes de relations        </span>
+    </a>
+            <a href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#" id="exportPages" class="M_butt">
+            <img title="Exporter le schéma" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/export.png">
+            <span class="hide hidable" style="display: none;">
+                Exporter le schéma            </span>
+        </a>
+        <a href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#" class="M_butt" id="key_Left_Right">
+        <img title="Déplacer le menu" alt="&gt;" data-right="./themes/pmahomme/img/pmd/2leftarrow_m.png" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/2rightarrow_m.png">
+        <span class="hide hidable" style="display: none;">
+            Déplacer le menu        </span>
+    </a>
+    <a href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#" class="M_butt" id="pin_Text">
+        <img title="Épingler le texte" alt="&gt;" data-right="./themes/pmahomme/img/pmd/anchor.png" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/anchor.png">
+        <span class="hide hidable" style="display: none;">
+            Épingler le texte        </span>
+    </a>
+</div><div id="canvas_outer"><form action="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" id="container-form" method="post" name="form1"><div id="osn_tab" style="width: 1140px; height: 599px;">
+    <canvas class="pmd" id="canvas" width="1137" height="596" style="display: inline-block;"></canvas>
+</div><div id="layer_menu" style="display: none; top: -1000px;">
+    <div class="center">
+        <a href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#" class="M_butt" target="_self">
+            <img title="Masquer/Afficher tout" alt="v" id="key_HS_all" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/downarrow1.png" data-down="./themes/pmahomme/img/pmd/downarrow1.png" data-right="./themes/pmahomme/img/pmd/rightarrow1.png">
+        </a>
+        <a href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#" class="M_butt" target="_self">
+            <img alt="v" id="key_HS" title="Masquer/Afficher les tables sans relations" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/downarrow2.png" data-down="./themes/pmahomme/img/pmd/downarrow2.png" data-right="./themes/pmahomme/img/pmd/rightarrow2.png">
+        </a>
+    </div>
+    <div id="id_scroll_tab" class="scroll_tab">
+        <table width="100%" style="padding-left: 3px;">
+                            <tbody><tr>
+                    <td title="Structure" width="1px" onmouseover="this.className=&#39;L_butt2_2&#39;" onmouseout="this.className=&#39;L_butt2_1&#39;" class="L_butt2_1">
+                        <img alt="" table_name="alimentation" class="scroll_tab_struct" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/exec.png">
+                    </td>
+                    <td width="1px">
+                        <input class="scroll_tab_checkbox" title="Masquer" id="check_vis_zoo.alimentation" style="margin:0;" type="checkbox" value="zoo.alimentation">
+                    </td>
+                    <td class="pmd_Tabs" onmouseover="this.className=&#39;pmd_Tabs2&#39;" onmouseout="this.className=&#39;pmd_Tabs&#39;" pmd_url_table_name="zoo.alimentation">
+                        zoo.alimentation                    </td>
+                </tr>
+                            <tr>
+                    <td title="Structure" width="1px" onmouseover="this.className=&#39;L_butt2_2&#39;" onmouseout="this.className=&#39;L_butt2_1&#39;" class="L_butt2_1">
+                        <img alt="" table_name="alimentation_animal" class="scroll_tab_struct" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/exec.png">
+                    </td>
+                    <td width="1px">
+                        <input class="scroll_tab_checkbox" title="Masquer" id="check_vis_zoo.alimentation_animal" style="margin:0;" type="checkbox" value="zoo.alimentation_animal">
+                    </td>
+                    <td class="pmd_Tabs" onmouseover="this.className=&#39;pmd_Tabs2&#39;" onmouseout="this.className=&#39;pmd_Tabs&#39;" pmd_url_table_name="zoo.alimentation_animal">
+                        zoo.alimentation_animal                    </td>
+                </tr>
+                            <tr>
+                    <td title="Structure" width="1px" onmouseover="this.className=&#39;L_butt2_2&#39;" onmouseout="this.className=&#39;L_butt2_1&#39;" class="L_butt2_1">
+                        <img alt="" table_name="animaux" class="scroll_tab_struct" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/exec.png">
+                    </td>
+                    <td width="1px">
+                        <input class="scroll_tab_checkbox" title="Masquer" id="check_vis_zoo.animaux" style="margin:0;" type="checkbox" value="zoo.animaux">
+                    </td>
+                    <td class="pmd_Tabs" onmouseover="this.className=&#39;pmd_Tabs2&#39;" onmouseout="this.className=&#39;pmd_Tabs&#39;" pmd_url_table_name="zoo.animaux">
+                        zoo.animaux                    </td>
+                </tr>
+                            <tr>
+                    <td title="Structure" width="1px" onmouseover="this.className=&#39;L_butt2_2&#39;" onmouseout="this.className=&#39;L_butt2_1&#39;" class="L_butt2_1">
+                        <img alt="" table_name="employe" class="scroll_tab_struct" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/exec.png">
+                    </td>
+                    <td width="1px">
+                        <input class="scroll_tab_checkbox" title="Masquer" id="check_vis_zoo.employe" style="margin:0;" type="checkbox" value="zoo.employe">
+                    </td>
+                    <td class="pmd_Tabs" onmouseover="this.className=&#39;pmd_Tabs2&#39;" onmouseout="this.className=&#39;pmd_Tabs&#39;" pmd_url_table_name="zoo.employe">
+                        zoo.employe                    </td>
+                </tr>
+                            <tr>
+                    <td title="Structure" width="1px" onmouseover="this.className=&#39;L_butt2_2&#39;" onmouseout="this.className=&#39;L_butt2_1&#39;" class="L_butt2_1">
+                        <img alt="" table_name="enclos" class="scroll_tab_struct" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/exec.png">
+                    </td>
+                    <td width="1px">
+                        <input class="scroll_tab_checkbox" title="Masquer" id="check_vis_zoo.enclos" style="margin:0;" type="checkbox" value="zoo.enclos">
+                    </td>
+                    <td class="pmd_Tabs" onmouseover="this.className=&#39;pmd_Tabs2&#39;" onmouseout="this.className=&#39;pmd_Tabs&#39;" pmd_url_table_name="zoo.enclos">
+                        zoo.enclos                    </td>
+                </tr>
+                            <tr>
+                    <td title="Structure" width="1px" onmouseover="this.className=&#39;L_butt2_2&#39;" onmouseout="this.className=&#39;L_butt2_1&#39;" class="L_butt2_1">
+                        <img alt="" table_name="espece" class="scroll_tab_struct" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/exec.png">
+                    </td>
+                    <td width="1px">
+                        <input class="scroll_tab_checkbox" title="Masquer" id="check_vis_zoo.espece" style="margin:0;" type="checkbox" value="zoo.espece">
+                    </td>
+                    <td class="pmd_Tabs" onmouseover="this.className=&#39;pmd_Tabs2&#39;" onmouseout="this.className=&#39;pmd_Tabs&#39;" pmd_url_table_name="zoo.espece">
+                        zoo.espece                    </td>
+                </tr>
+                            <tr>
+                    <td title="Structure" width="1px" onmouseover="this.className=&#39;L_butt2_2&#39;" onmouseout="this.className=&#39;L_butt2_1&#39;" class="L_butt2_1">
+                        <img alt="" table_name="traitements" class="scroll_tab_struct" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/exec.png">
+                    </td>
+                    <td width="1px">
+                        <input class="scroll_tab_checkbox" title="Masquer" id="check_vis_zoo.traitements" style="margin:0;" type="checkbox" value="zoo.traitements">
+                    </td>
+                    <td class="pmd_Tabs" onmouseover="this.className=&#39;pmd_Tabs2&#39;" onmouseout="this.className=&#39;pmd_Tabs&#39;" pmd_url_table_name="zoo.traitements">
+                        zoo.traitements                    </td>
+                </tr>
+                            <tr>
+                    <td title="Structure" width="1px" onmouseover="this.className=&#39;L_butt2_2&#39;" onmouseout="this.className=&#39;L_butt2_1&#39;" class="L_butt2_1">
+                        <img alt="" table_name="traitement_animal" class="scroll_tab_struct" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/exec.png">
+                    </td>
+                    <td width="1px">
+                        <input class="scroll_tab_checkbox" title="Masquer" id="check_vis_zoo.traitement_animal" style="margin:0;" type="checkbox" value="zoo.traitement_animal">
+                    </td>
+                    <td class="pmd_Tabs" onmouseover="this.className=&#39;pmd_Tabs2&#39;" onmouseout="this.className=&#39;pmd_Tabs&#39;" pmd_url_table_name="zoo.traitement_animal">
+                        zoo.traitement_animal                    </td>
+                </tr>
+                    </tbody></table>
+    </div>
+    <!-- end id_scroll_tab -->
+    <div class="center">
+        Nombre de tables :  8    </div>
+    <div id="layer_menu_sizer" onmousedown="layer_menu_cur_click=1">
+        <div class="floatleft">
+            <img class="icon" data-right="./themes/pmahomme/img/pmd/resizeright.png" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/resize.png">
+        </div>
+    </div>
+</div>
+<!-- end layer_menu -->
+    <input name="t_x[zoo.alimentation]" type="hidden" id="t_x_zoo.alimentation_">
+    <input name="t_y[zoo.alimentation]" type="hidden" id="t_y_zoo.alimentation_">
+    <input name="t_v[zoo.alimentation]" type="hidden" id="t_v_zoo.alimentation_">
+    <input name="t_h[zoo.alimentation]" type="hidden" id="t_h_zoo.alimentation_">
+    <!-- Why should we put styles here?! -->
+    <table id="zoo.alimentation" cellpadding="0" cellspacing="0" class="pmd_tab" style="position: absolute; left: 376px; top: 59px; display: block; z-index: 1;" data-left="376" data-top="59">
+        <thead>
+            <tr class="header">
+                                <td class="small_tab" title="Afficher/Masquer les colonnes" id="id_hide_tbody_zoo.alimentation" table_name="zoo.alimentation" onmouseover="this.className=&#39;small_tab2&#39;;" onmouseout="this.className=&#39;small_tab&#39;;">v</td>
+                <td class="small_tab_pref small_tab_pref_1" table_name_small="alimentation" onmouseover="this.className=&#39;small_tab_pref2 small_tab_pref_1&#39;;" onmouseout="this.className=&#39;small_tab_pref small_tab_pref_1&#39;;">
+                    <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/exec_small.png" title="Voir la structure de la table">
+                </td>
+                <td id="id_zag_zoo.alimentation" class="tab_zag" onmousedown="cur_click=document.getElementById(&#39;zoo.alimentation&#39;);" table_name="zoo.alimentation" query_set="0">
+                    <span class="owner">
+                        zoo                    </span>
+                    alimentation                </td>
+                            </tr>
+        </thead>
+        <tbody id="id_tbody_zoo.alimentation" style="">
+                            <tr id="id_tr_alimentation.id" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="alimentation,id,1">
+                                        <td width="10px" colspan="3" id="zoo.alimentation.id">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/FieldKey_small.png" alt="*">
+                                                        id : int(11)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_alimentation.compsition" class="tab_field_3" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="alimentation,compsition,0">
+                                        <td width="10px" colspan="3" id="zoo.alimentation.compsition">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/Field_small_char.png" alt="*">
+                                                        compsition : varchar(255)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_alimentation.type" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="alimentation,type,0">
+                                        <td width="10px" colspan="3" id="zoo.alimentation.type">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/Field_small_char.png" alt="*">
+                                                        type : varchar(255)                        </div>
+                    </td>
+                                    </tr>
+                    </tbody>
+    </table>
+    <input name="t_x[zoo.alimentation_animal]" type="hidden" id="t_x_zoo.alimentation_animal_">
+    <input name="t_y[zoo.alimentation_animal]" type="hidden" id="t_y_zoo.alimentation_animal_">
+    <input name="t_v[zoo.alimentation_animal]" type="hidden" id="t_v_zoo.alimentation_animal_">
+    <input name="t_h[zoo.alimentation_animal]" type="hidden" id="t_h_zoo.alimentation_animal_">
+    <!-- Why should we put styles here?! -->
+    <table id="zoo.alimentation_animal" cellpadding="0" cellspacing="0" class="pmd_tab" style="position: absolute; left: 80px; top: 132px; display: block; z-index: 1;" data-left="80" data-top="132">
+        <thead>
+            <tr class="header">
+                                <td class="small_tab" title="Afficher/Masquer les colonnes" id="id_hide_tbody_zoo.alimentation_animal" table_name="zoo.alimentation_animal" onmouseover="this.className=&#39;small_tab2&#39;;" onmouseout="this.className=&#39;small_tab&#39;;">v</td>
+                <td class="small_tab_pref small_tab_pref_1" table_name_small="alimentation_animal" onmouseover="this.className=&#39;small_tab_pref2 small_tab_pref_1&#39;;" onmouseout="this.className=&#39;small_tab_pref small_tab_pref_1&#39;;">
+                    <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/exec_small.png" title="Voir la structure de la table">
+                </td>
+                <td id="id_zag_zoo.alimentation_animal" class="tab_zag" onmousedown="cur_click=document.getElementById(&#39;zoo.alimentation_animal&#39;);" table_name="zoo.alimentation_animal" query_set="0">
+                    <span class="owner">
+                        zoo                    </span>
+                    alimentation_animal                </td>
+                            </tr>
+        </thead>
+        <tbody id="id_tbody_zoo.alimentation_animal" style="">
+                            <tr id="id_tr_alimentation_animal.id_animal_mange" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="alimentation_animal,id_animal_mange,1">
+                                        <td width="10px" colspan="3" id="zoo.alimentation_animal.id_animal_mange">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/Field_small_int.png" alt="*">
+                                                        id_animal_mange : int(11)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_alimentation_animal.id_alimentation_mangee" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="alimentation_animal,id_alimentation_mangee,1">
+                                        <td width="10px" colspan="3" id="zoo.alimentation_animal.id_alimentation_mangee">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/Field_small_int.png" alt="*">
+                                                        id_alimentation_mangee : int(11)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_alimentation_animal.quantite" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="alimentation_animal,quantite,0">
+                                        <td width="10px" colspan="3" id="zoo.alimentation_animal.quantite">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/Field_small_int.png" alt="*">
+                                                        quantite : int(11)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_alimentation_animal.frequence" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="alimentation_animal,frequence,0">
+                                        <td width="10px" colspan="3" id="zoo.alimentation_animal.frequence">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/Field_small_int.png" alt="*">
+                                                        frequence : int(11)                        </div>
+                    </td>
+                                    </tr>
+                    </tbody>
+    </table>
+    <input name="t_x[zoo.animaux]" type="hidden" id="t_x_zoo.animaux_">
+    <input name="t_y[zoo.animaux]" type="hidden" id="t_y_zoo.animaux_">
+    <input name="t_v[zoo.animaux]" type="hidden" id="t_v_zoo.animaux_">
+    <input name="t_h[zoo.animaux]" type="hidden" id="t_h_zoo.animaux_">
+    <!-- Why should we put styles here?! -->
+    <table id="zoo.animaux" cellpadding="0" cellspacing="0" class="pmd_tab" style="position: absolute; left: 374px; top: 214px; display: block; z-index: 1;" data-left="374" data-top="214">
+        <thead>
+            <tr class="header">
+                                <td class="small_tab" title="Afficher/Masquer les colonnes" id="id_hide_tbody_zoo.animaux" table_name="zoo.animaux" onmouseover="this.className=&#39;small_tab2&#39;;" onmouseout="this.className=&#39;small_tab&#39;;">v</td>
+                <td class="small_tab_pref small_tab_pref_1" table_name_small="animaux" onmouseover="this.className=&#39;small_tab_pref2 small_tab_pref_1&#39;;" onmouseout="this.className=&#39;small_tab_pref small_tab_pref_1&#39;;">
+                    <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/exec_small.png" title="Voir la structure de la table">
+                </td>
+                <td id="id_zag_zoo.animaux" class="tab_zag" onmousedown="cur_click=document.getElementById(&#39;zoo.animaux&#39;);" table_name="zoo.animaux" query_set="0">
+                    <span class="owner">
+                        zoo                    </span>
+                    animaux                </td>
+                            </tr>
+        </thead>
+        <tbody id="id_tbody_zoo.animaux" style="">
+                            <tr id="id_tr_animaux.id" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="animaux,id,1">
+                                        <td width="10px" colspan="3" id="zoo.animaux.id">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/FieldKey_small.png" alt="*">
+                                                        id : int(11)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_animaux.nom" class="tab_field_3" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="animaux,nom,0">
+                                        <td width="10px" colspan="3" id="zoo.animaux.nom">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/Field_small_char.png" alt="*">
+                                                        nom : varchar(255)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_animaux.tatouage" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="animaux,tatouage,0">
+                                        <td width="10px" colspan="3" id="zoo.animaux.tatouage">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/Field_small_char.png" alt="*">
+                                                        tatouage : varchar(255)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_animaux.signe_particulier" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="animaux,signe_particulier,0">
+                                        <td width="10px" colspan="3" id="zoo.animaux.signe_particulier">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/Field_small_char.png" alt="*">
+                                                        signe_particulier : varchar(255)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_animaux.photo" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="animaux,photo,0">
+                                        <td width="10px" colspan="3" id="zoo.animaux.photo">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/Field_small.png" alt="*">
+                                                        photo : blob                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_animaux.id_entretenu" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="animaux,id_entretenu,1">
+                                        <td width="10px" colspan="3" id="zoo.animaux.id_entretenu">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/Field_small_int.png" alt="*">
+                                                        id_entretenu : int(11)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_animaux.id_habite" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="animaux,id_habite,1">
+                                        <td width="10px" colspan="3" id="zoo.animaux.id_habite">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/Field_small_int.png" alt="*">
+                                                        id_habite : int(11)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_animaux.id_appartient" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="animaux,id_appartient,1">
+                                        <td width="10px" colspan="3" id="zoo.animaux.id_appartient">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/Field_small_int.png" alt="*">
+                                                        id_appartient : int(11)                        </div>
+                    </td>
+                                    </tr>
+                    </tbody>
+    </table>
+    <input name="t_x[zoo.employe]" type="hidden" id="t_x_zoo.employe_">
+    <input name="t_y[zoo.employe]" type="hidden" id="t_y_zoo.employe_">
+    <input name="t_v[zoo.employe]" type="hidden" id="t_v_zoo.employe_">
+    <input name="t_h[zoo.employe]" type="hidden" id="t_h_zoo.employe_">
+    <!-- Why should we put styles here?! -->
+    <table id="zoo.employe" cellpadding="0" cellspacing="0" class="pmd_tab" style="position: absolute; left: 740px; top: 256px; display: block; z-index: 1;" data-left="740" data-top="256">
+        <thead>
+            <tr class="header">
+                                <td class="small_tab" title="Afficher/Masquer les colonnes" id="id_hide_tbody_zoo.employe" table_name="zoo.employe" onmouseover="this.className=&#39;small_tab2&#39;;" onmouseout="this.className=&#39;small_tab&#39;;">v</td>
+                <td class="small_tab_pref small_tab_pref_1" table_name_small="employe" onmouseover="this.className=&#39;small_tab_pref2 small_tab_pref_1&#39;;" onmouseout="this.className=&#39;small_tab_pref small_tab_pref_1&#39;;">
+                    <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/exec_small.png" title="Voir la structure de la table">
+                </td>
+                <td id="id_zag_zoo.employe" class="tab_zag" onmousedown="cur_click=document.getElementById(&#39;zoo.employe&#39;);" table_name="zoo.employe" query_set="0">
+                    <span class="owner">
+                        zoo                    </span>
+                    employe                </td>
+                            </tr>
+        </thead>
+        <tbody id="id_tbody_zoo.employe" style="">
+                            <tr id="id_tr_employe.id" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="employe,id,1">
+                                        <td width="10px" colspan="3" id="zoo.employe.id">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/FieldKey_small.png" alt="*">
+                                                        id : int(11)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_employe.nom" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="employe,nom,0">
+                                        <td width="10px" colspan="3" id="zoo.employe.nom">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/Field_small_int.png" alt="*">
+                                                        nom : int(255)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_employe.prenom" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="employe,prenom,0">
+                                        <td width="10px" colspan="3" id="zoo.employe.prenom">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/Field_small_int.png" alt="*">
+                                                        prenom : int(255)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_employe.adresse" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="employe,adresse,0">
+                                        <td width="10px" colspan="3" id="zoo.employe.adresse">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/Field_small_int.png" alt="*">
+                                                        adresse : int(255)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_employe.telephone" class="tab_field_3" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="employe,telephone,0">
+                                        <td width="10px" colspan="3" id="zoo.employe.telephone">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/Field_small_char.png" alt="*">
+                                                        telephone : varchar(11)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_employe.numero_secu" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="employe,numero_secu,0">
+                                        <td width="10px" colspan="3" id="zoo.employe.numero_secu">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/Field_small_char.png" alt="*">
+                                                        numero_secu : varchar(15)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_employe.poste" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="employe,poste,0">
+                                        <td width="10px" colspan="3" id="zoo.employe.poste">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/Field_small_char.png" alt="*">
+                                                        poste : varchar(255)                        </div>
+                    </td>
+                                    </tr>
+                    </tbody>
+    </table>
+    <input name="t_x[zoo.enclos]" type="hidden" id="t_x_zoo.enclos_">
+    <input name="t_y[zoo.enclos]" type="hidden" id="t_y_zoo.enclos_">
+    <input name="t_v[zoo.enclos]" type="hidden" id="t_v_zoo.enclos_">
+    <input name="t_h[zoo.enclos]" type="hidden" id="t_h_zoo.enclos_">
+    <!-- Why should we put styles here?! -->
+    <table id="zoo.enclos" cellpadding="0" cellspacing="0" class="pmd_tab" style="position: absolute; left: 168px; top: 410px; display: block; z-index: 1;" data-left="168" data-top="410">
+        <thead>
+            <tr class="header">
+                                <td class="small_tab" title="Afficher/Masquer les colonnes" id="id_hide_tbody_zoo.enclos" table_name="zoo.enclos" onmouseover="this.className=&#39;small_tab2&#39;;" onmouseout="this.className=&#39;small_tab&#39;;">v</td>
+                <td class="small_tab_pref small_tab_pref_1" table_name_small="enclos" onmouseover="this.className=&#39;small_tab_pref2 small_tab_pref_1&#39;;" onmouseout="this.className=&#39;small_tab_pref small_tab_pref_1&#39;;">
+                    <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/exec_small.png" title="Voir la structure de la table">
+                </td>
+                <td id="id_zag_zoo.enclos" class="tab_zag" onmousedown="cur_click=document.getElementById(&#39;zoo.enclos&#39;);" table_name="zoo.enclos" query_set="0">
+                    <span class="owner">
+                        zoo                    </span>
+                    enclos                </td>
+                            </tr>
+        </thead>
+        <tbody id="id_tbody_zoo.enclos" style="">
+                            <tr id="id_tr_enclos.id" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="enclos,id,1">
+                                        <td width="10px" colspan="3" id="zoo.enclos.id">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/FieldKey_small.png" alt="*">
+                                                        id : int(11)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_enclos.emplacement" class="tab_field_3" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="enclos,emplacement,0">
+                                        <td width="10px" colspan="3" id="zoo.enclos.emplacement">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/Field_small_char.png" alt="*">
+                                                        emplacement : varchar(255)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_enclos.num_enclos" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="enclos,num_enclos,0">
+                                        <td width="10px" colspan="3" id="zoo.enclos.num_enclos">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/Field_small_int.png" alt="*">
+                                                        num_enclos : int(255)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_enclos.description" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="enclos,description,0">
+                                        <td width="10px" colspan="3" id="zoo.enclos.description">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/Field_small_char.png" alt="*">
+                                                        description : text                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_enclos.superficie" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="enclos,superficie,0">
+                                        <td width="10px" colspan="3" id="zoo.enclos.superficie">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/Field_small_int.png" alt="*">
+                                                        superficie : float                        </div>
+                    </td>
+                                    </tr>
+                    </tbody>
+    </table>
+    <input name="t_x[zoo.espece]" type="hidden" id="t_x_zoo.espece_">
+    <input name="t_y[zoo.espece]" type="hidden" id="t_y_zoo.espece_">
+    <input name="t_v[zoo.espece]" type="hidden" id="t_v_zoo.espece_">
+    <input name="t_h[zoo.espece]" type="hidden" id="t_h_zoo.espece_">
+    <!-- Why should we put styles here?! -->
+    <table id="zoo.espece" cellpadding="0" cellspacing="0" class="pmd_tab" style="position: absolute; left: 605px; top: 438px; display: block; z-index: 1;" data-left="605" data-top="438">
+        <thead>
+            <tr class="header">
+                                <td class="small_tab" title="Afficher/Masquer les colonnes" id="id_hide_tbody_zoo.espece" table_name="zoo.espece" onmouseover="this.className=&#39;small_tab2&#39;;" onmouseout="this.className=&#39;small_tab&#39;;">v</td>
+                <td class="small_tab_pref small_tab_pref_1" table_name_small="espece" onmouseover="this.className=&#39;small_tab_pref2 small_tab_pref_1&#39;;" onmouseout="this.className=&#39;small_tab_pref small_tab_pref_1&#39;;">
+                    <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/exec_small.png" title="Voir la structure de la table">
+                </td>
+                <td id="id_zag_zoo.espece" class="tab_zag" onmousedown="cur_click=document.getElementById(&#39;zoo.espece&#39;);" table_name="zoo.espece" query_set="0">
+                    <span class="owner">
+                        zoo                    </span>
+                    espece                </td>
+                            </tr>
+        </thead>
+        <tbody id="id_tbody_zoo.espece" style="">
+                            <tr id="id_tr_espece.id" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="espece,id,1">
+                                        <td width="10px" colspan="3" id="zoo.espece.id">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/FieldKey_small.png" alt="*">
+                                                        id : int(11)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_espece.nom_commun" class="tab_field_3" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="espece,nom_commun,0">
+                                        <td width="10px" colspan="3" id="zoo.espece.nom_commun">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/Field_small_char.png" alt="*">
+                                                        nom_commun : varchar(255)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_espece.nom_scientifique" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="espece,nom_scientifique,0">
+                                        <td width="10px" colspan="3" id="zoo.espece.nom_scientifique">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/Field_small_char.png" alt="*">
+                                                        nom_scientifique : varchar(255)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_espece.origine" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="espece,origine,0">
+                                        <td width="10px" colspan="3" id="zoo.espece.origine">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/Field_small_char.png" alt="*">
+                                                        origine : varchar(255)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_espece.description" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="espece,description,0">
+                                        <td width="10px" colspan="3" id="zoo.espece.description">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/Field_small_char.png" alt="*">
+                                                        description : text                        </div>
+                    </td>
+                                    </tr>
+                    </tbody>
+    </table>
+    <input name="t_x[zoo.traitements]" type="hidden" id="t_x_zoo.traitements_">
+    <input name="t_y[zoo.traitements]" type="hidden" id="t_y_zoo.traitements_">
+    <input name="t_v[zoo.traitements]" type="hidden" id="t_v_zoo.traitements_">
+    <input name="t_h[zoo.traitements]" type="hidden" id="t_h_zoo.traitements_">
+    <!-- Why should we put styles here?! -->
+    <table id="zoo.traitements" cellpadding="0" cellspacing="0" class="pmd_tab" style="position: absolute; left: 910px; top: 10px; display: block; z-index: 1;" data-left="910" data-top="10">
+        <thead>
+            <tr class="header">
+                                <td class="small_tab" title="Afficher/Masquer les colonnes" id="id_hide_tbody_zoo.traitements" table_name="zoo.traitements" onmouseover="this.className=&#39;small_tab2&#39;;" onmouseout="this.className=&#39;small_tab&#39;;">v</td>
+                <td class="small_tab_pref small_tab_pref_1" table_name_small="traitements" onmouseover="this.className=&#39;small_tab_pref2 small_tab_pref_1&#39;;" onmouseout="this.className=&#39;small_tab_pref small_tab_pref_1&#39;;">
+                    <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/exec_small.png" title="Voir la structure de la table">
+                </td>
+                <td id="id_zag_zoo.traitements" class="tab_zag" onmousedown="cur_click=document.getElementById(&#39;zoo.traitements&#39;);" table_name="zoo.traitements" query_set="0">
+                    <span class="owner">
+                        zoo                    </span>
+                    traitements                </td>
+                            </tr>
+        </thead>
+        <tbody id="id_tbody_zoo.traitements" style="">
+                            <tr id="id_tr_traitements.id" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="traitements,id,1">
+                                        <td width="10px" colspan="3" id="zoo.traitements.id">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/FieldKey_small.png" alt="*">
+                                                        id : int(11)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_traitements.medicament" class="tab_field_3" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="traitements,medicament,0">
+                                        <td width="10px" colspan="3" id="zoo.traitements.medicament">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/Field_small_char.png" alt="*">
+                                                        medicament : varchar(255)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_traitements.description" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="traitements,description,0">
+                                        <td width="10px" colspan="3" id="zoo.traitements.description">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/Field_small_char.png" alt="*">
+                                                        description : text                        </div>
+                    </td>
+                                    </tr>
+                    </tbody>
+    </table>
+    <input name="t_x[zoo.traitement_animal]" type="hidden" id="t_x_zoo.traitement_animal_">
+    <input name="t_y[zoo.traitement_animal]" type="hidden" id="t_y_zoo.traitement_animal_">
+    <input name="t_v[zoo.traitement_animal]" type="hidden" id="t_v_zoo.traitement_animal_">
+    <input name="t_h[zoo.traitement_animal]" type="hidden" id="t_h_zoo.traitement_animal_">
+    <!-- Why should we put styles here?! -->
+    <table id="zoo.traitement_animal" cellpadding="0" cellspacing="0" class="pmd_tab" style="position: absolute; left: 657px; top: 69px; display: block; z-index: 1;" data-left="657" data-top="69">
+        <thead>
+            <tr class="header">
+                                <td class="small_tab" title="Afficher/Masquer les colonnes" id="id_hide_tbody_zoo.traitement_animal" table_name="zoo.traitement_animal" onmouseover="this.className=&#39;small_tab2&#39;;" onmouseout="this.className=&#39;small_tab&#39;;">v</td>
+                <td class="small_tab_pref small_tab_pref_1" table_name_small="traitement_animal" onmouseover="this.className=&#39;small_tab_pref2 small_tab_pref_1&#39;;" onmouseout="this.className=&#39;small_tab_pref small_tab_pref_1&#39;;">
+                    <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/exec_small.png" title="Voir la structure de la table">
+                </td>
+                <td id="id_zag_zoo.traitement_animal" class="tab_zag" onmousedown="cur_click=document.getElementById(&#39;zoo.traitement_animal&#39;);" table_name="zoo.traitement_animal" query_set="0">
+                    <span class="owner">
+                        zoo                    </span>
+                    traitement_animal                </td>
+                            </tr>
+        </thead>
+        <tbody id="id_tbody_zoo.traitement_animal" style="">
+                            <tr id="id_tr_traitement_animal.id_besoin_animal" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="traitement_animal,id_besoin_animal,1">
+                                        <td width="10px" colspan="3" id="zoo.traitement_animal.id_besoin_animal">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/Field_small_int.png" alt="*">
+                                                        id_besoin_animal : int(11)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_traitement_animal.id_medicament_consomme" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="traitement_animal,id_medicament_consomme,1">
+                                        <td width="10px" colspan="3" id="zoo.traitement_animal.id_medicament_consomme">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/Field_small_int.png" alt="*">
+                                                        id_medicament_consomme : int(11)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_traitement_animal.posologie" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="traitement_animal,posologie,0">
+                                        <td width="10px" colspan="3" id="zoo.traitement_animal.posologie">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/Field_small_int.png" alt="*">
+                                                        posologie : int(11)                        </div>
+                    </td>
+                                    </tr>
+                            <tr id="id_tr_traitement_animal.duree" class="tab_field" onmouseover="old_class = this.className; this.className = &#39;tab_field_2&#39;;" onmouseout="this.className = old_class;" click_field_param="traitement_animal,duree,0">
+                                        <td width="10px" colspan="3" id="zoo.traitement_animal.duree">
+                        <div class="nowrap">
+                                                            <img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/Field_small_int.png" alt="*">
+                                                        duree : int(11)                        </div>
+                    </td>
+                                    </tr>
+                    </tbody>
+    </table>
+</form></div><div id="pmd_hint"></div><table id="layer_new_relation" style="display:none;" width="5%" cellpadding="0" cellspacing="0">
+    <tbody>
+        <tr>
+            <td class="frams1" width="10px">
+            </td>
+            <td class="frams5" width="99%">
+            </td>
+            <td class="frams2" width="10px">
+                <div class="bor">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="frams8">
+            </td>
+            <td class="input_tab">
+                <table width="168" class="center" cellpadding="2" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <td colspan="2" class="center nowrap">
+                                <strong>
+                                    Nouvelle relation                                </strong>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody id="foreign_relation">
+                        <tr>
+                            <td colspan="2" class="center nowrap">
+                                <strong>
+                                    FOREIGN KEY
+                                </strong>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="58" class="nowrap">
+                                on delete
+                            </td>
+                            <td width="102">
+                                <select name="on_delete" id="on_delete">
+                                    <option value="nix" selected="selected">
+                                        --
+                                    </option>
+                                    <option value="CASCADE">
+                                        CASCADE
+                                    </option>
+                                    <option value="SET NULL">
+                                        SET NULL
+                                    </option>
+                                    <option value="NO ACTION">
+                                        NO ACTION
+                                    </option>
+                                    <option value="RESTRICT">
+                                        RESTRICT
+                                    </option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="nowrap">
+                                on update
+                            </td>
+                            <td>
+                                <select name="on_update" id="on_update">
+                                    <option value="nix" selected="selected">
+                                        --
+                                    </option>
+                                    <option value="CASCADE">
+                                        CASCADE
+                                    </option>
+                                    <option value="SET NULL">
+                                        SET NULL
+                                    </option>
+                                    <option value="NO ACTION">
+                                        NO ACTION
+                                    </option>
+                                    <option value="RESTRICT">
+                                        RESTRICT
+                                    </option>
+                                </select>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td colspan="2" class="center nowrap">
+                                <input type="button" id="ok_new_rel_panel" class="butt" name="Button" value="OK">
+                                <input type="button" id="cancel_new_rel_panel" class="butt" name="Button" value="Annuler">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+            <td class="frams6">
+            </td>
+        </tr>
+        <tr>
+            <td class="frams4">
+                <div class="bor">
+                </div>
+            </td>
+            <td class="frams7">
+            </td>
+            <td class="frams3">
+            </td>
+        </tr>
+    </tbody>
+</table><table id="layer_upd_relation" style="display:none;" width="5%" cellpadding="0" cellspacing="0">
+    <tbody>
+        <tr>
+            <td class="frams1" width="10px">
+            </td>
+            <td class="frams5" width="99%">
+            </td>
+            <td class="frams2" width="10px">
+                <div class="bor">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="frams8">
+            </td>
+            <td class="input_tab">
+                <table width="100%" class="center" cellpadding="2" cellspacing="0">
+                    <tbody><tr>
+                        <td colspan="3" class="center nowrap">
+                            <strong>
+                                Supprimer la relation                            </strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="center nowrap">
+                            <input id="del_button" name="Button" type="button" class="butt" value="Supprimer">
+                            <input id="cancel_button" type="button" class="butt" name="Button" value="Annuler">
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+            <td class="frams6">
+            </td>
+        </tr>
+        <tr>
+            <td class="frams4">
+                <div class="bor">
+                </div>
+            </td>
+            <td class="frams7">
+            </td>
+            <td class="frams3">
+            </td>
+        </tr>
+    </tbody>
+</table><div id="PMA_disable_floating_menubar"></div></div><div style="position:fixed;bottom:0;left:0;right:0;margin:0;z-index:1000" class="error" id="error_notification"><img alt="" title="" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" class="icon ic_s_error">Une erreur JavaScript fatale s'est produite. Faut-il envoyer un rapport d'erreurs ?<div class="floatright"><button id="show_error_report">Afficher les détails du rapport</button><a id="change_error_settings"><img alt="Modifier les paramètres de rapport" title="Modifier les paramètres de rapport" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" class="icon ic_s_cog"></a><a href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#" id="ignore_error"><img alt="Ignorer" title="Ignorer" src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" class="icon ic_b_close"></a></div></div><div tabindex="-1" role="dialog" class="ui-dialog ui-corner-all ui-widget ui-widget-content ui-front ui-dialog-buttons ui-draggable ui-resizable" aria-describedby="pma_navigation_settings" aria-labelledby="ui-id-7" style="position: fixed; height: auto; width: 700px; top: 17.3555px; left: 362.383px; z-index: 101; display: none;"><div class="ui-dialog-titlebar ui-corner-all ui-widget-header ui-helper-clearfix ui-draggable-handle"><span id="ui-id-7" class="ui-dialog-title">Paramètres relatifs à la page</span><button type="button" class="ui-button ui-corner-all ui-widget ui-button-icon-only ui-dialog-titlebar-close" title="Close"><span class="ui-button-icon ui-icon ui-icon-closethick"></span><span class="ui-button-icon-space"> </span>Close</button></div><div id="pma_navigation_settings" class="ui-dialog-content ui-widget-content" style="display: block; width: auto; min-height: 138.93px; max-height: 583.219px; height: auto;"><div class="page_settings"><form method="post" action="http://localhost:1200/db_designer.php?db=zoo&amp;table=&amp;server=1&amp;target=&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3" class="config-form disableAjax"><input type="hidden" name="tab_hash" value=""><input type="hidden" name="check_page_refresh" id="check_page_refresh" value="1">
+<input type="hidden" name="token" value="87d2247c9d4dc8301b468e2ef9c99dd3">
+<input type="hidden" name="submit_save" value="Navi_panel"><input type="hidden" name="token" value="87d2247c9d4dc8301b468e2ef9c99dd3"><ul class="tabs">
+
+                                    <li class="active">
+
+            <a href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#Navi_panel">
+            Panneau de navigation            </a>
+        </li>
+                                <li>
+
+            <a href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#Navi_tree">
+            Arborescence de navigation            </a>
+        </li>
+                                <li>
+
+            <a href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#Navi_databases">
+            Bases de données            </a>
+        </li>
+                                <li>
+
+            <a href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#Navi_tables">
+            Tables            </a>
+        </li>
+            </ul><br><div class="tabs_contents"><fieldset class="optbox" id="Navi_panel" style=""><legend>Panneau de navigation</legend><p>Personnaliser l'apparence du panneau de navigation.</p><table width="100%" cellspacing="0"><tbody><tr><th><label for="ShowDatabasesNavigationAsTree">Afficher la navigation des bases de données en tant qu'arborescence</label><span class="doc"><a href="http://localhost:1200/doc/html/config.html#cfg_ShowDatabasesNavigationAsTree" target="documentation"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Dans le volet de navigation, remplacer l'arborescence de la base de données par un sélecteur</small></th><td><span class="checkbox"><input type="checkbox" name="ShowDatabasesNavigationAsTree" id="ShowDatabasesNavigationAsTree" checked="checked"></span><a class="restore-default" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#ShowDatabasesNavigationAsTree" title="Restaurer la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationLinkWithMainPanel">Relier au panneau principal</label><span class="doc"><a href="http://localhost:1200/doc/html/config.html#cfg_NavigationLinkWithMainPanel" target="documentation"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Relier au panneau principal en mettant en surbrillance la base de données ou la table active.</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationLinkWithMainPanel" id="NavigationLinkWithMainPanel" checked="checked"></span><a class="restore-default" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#NavigationLinkWithMainPanel" title="Restaurer la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationDisplayLogo">Afficher le logo</label><span class="doc"><a href="http://localhost:1200/doc/html/config.html#cfg_NavigationDisplayLogo" target="documentation"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Afficher le logo dans le panneau de navigation.</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationDisplayLogo" id="NavigationDisplayLogo" checked="checked"></span><a class="restore-default" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#NavigationDisplayLogo" title="Restaurer la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationLogoLink">URL du lien sous le logo</label><span class="doc"><a href="http://localhost:1200/doc/html/config.html#cfg_NavigationLogoLink" target="documentation"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>L'URL vers lequel pointera le logo dans le panneau de navigation.</small></th><td><input type="text" size="40" name="NavigationLogoLink" id="NavigationLogoLink" value="index.php"><a class="restore-default" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#NavigationLogoLink" title="Restaurer la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationLogoLinkWindow">Fenêtre cible pour la page ouverte lors d'un clic sur le logo</label><span class="doc"><a href="http://localhost:1200/doc/html/config.html#cfg_NavigationLogoLinkWindow" target="documentation"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Ouvrir la page en lien dans la fenêtre principale, (<kbd>main</kbd>) ou dans une nouvelle fenêtre, (<kbd>new</kbd>).</small></th><td><select name="NavigationLogoLinkWindow" id="NavigationLogoLinkWindow"><option value="main" selected="selected">main</option><option value="new">new</option></select><a class="restore-default" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#NavigationLogoLinkWindow" title="Restaurer la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreePointerEnable">Active la surbrillance</label><span class="doc"><a href="http://localhost:1200/doc/html/config.html#cfg_NavigationTreePointerEnable" target="documentation"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Faire ressortir le nom du serveur dans le panneau de navigation.</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationTreePointerEnable" id="NavigationTreePointerEnable" checked="checked"></span><a class="restore-default" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#NavigationTreePointerEnable" title="Restaurer la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="FirstLevelNavigationItems">Nombre maximum d'éléments au premier niveau</label><span class="doc"><a href="http://localhost:1200/doc/html/config.html#cfg_FirstLevelNavigationItems" target="documentation"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Le nombre d'éléments qui peuvent être affichés pour chaque page du premier niveau de l'arborescence de navigation.</small></th><td><input type="number" name="FirstLevelNavigationItems" id="FirstLevelNavigationItems" value="100"><a class="restore-default" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#FirstLevelNavigationItems" title="Restaurer la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeDisplayItemFilterMinimum">Nombre minimum d'éléments pour afficher la boîte de filtrage</label><span class="doc"><a href="http://localhost:1200/doc/html/config.html#cfg_NavigationTreeDisplayItemFilterMinimum" target="documentation"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Définir le nombre minimum d'éléments (tables, vues, procédures et événements) nécessaires pour afficher la boîte de filtrage.</small></th><td><input type="number" name="NavigationTreeDisplayItemFilterMinimum" id="NavigationTreeDisplayItemFilterMinimum" value="30"><a class="restore-default" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#NavigationTreeDisplayItemFilterMinimum" title="Restaurer la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NumRecentTables">Tables récemment utilisées</label><span class="doc"><a href="http://localhost:1200/doc/html/config.html#cfg_NumRecentTables" target="documentation"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Nombre maximum de tables récentes ; définir à 0 pour désactiver.</small></th><td><input type="number" name="NumRecentTables" id="NumRecentTables" value="10"><a class="restore-default" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#NumRecentTables" title="Restaurer la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NumFavoriteTables">Tables préférées</label><span class="doc"><a href="http://localhost:1200/doc/html/config.html#cfg_NumFavoriteTables" target="documentation"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Le nombre maximum de tables préférées ; définir à 0 pour désactiver.</small></th><td><input type="number" name="NumFavoriteTables" id="NumFavoriteTables" value="10"><a class="restore-default" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#NumFavoriteTables" title="Restaurer la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr></tbody></table></fieldset><fieldset class="optbox" id="Navi_tree" style="display: none;"><legend>Arborescence de navigation</legend><p>Personnaliser l'arborescence de navigation.</p><table width="100%" cellspacing="0"><tbody><tr><th><label for="MaxNavigationItems">Nombre maximum d'éléments dans la branche</label><span class="doc"><a href="http://localhost:1200/doc/html/config.html#cfg_MaxNavigationItems" target="documentation"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Le nombre d'éléments qui peuvent être affichés pour chaque page de l'arborescence de navigation.</small></th><td><input type="number" name="MaxNavigationItems" id="MaxNavigationItems" value="50"><a class="restore-default" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#MaxNavigationItems" title="Restaurer la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeEnableGrouping">Regrouper les éléments dans l'arborescence</label><span class="doc"><a href="http://localhost:1200/doc/html/config.html#cfg_NavigationTreeEnableGrouping" target="documentation"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Regrouper les éléments dans l'arborescence de navigation (déterminé par le séparateur défini dans les onglets Bases de données et Tables ci-dessus).</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationTreeEnableGrouping" id="NavigationTreeEnableGrouping" checked="checked"></span><a class="restore-default" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#NavigationTreeEnableGrouping" title="Restaurer la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeEnableExpansion">Activer l'expansion de l'arborescence de navigation</label><span class="doc"><a href="http://localhost:1200/doc/html/config.html#cfg_NavigationTreeEnableExpansion" target="documentation"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Pour offrir la possibilité d'expansion de l'arborescence dans le panneau de navigation.</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationTreeEnableExpansion" id="NavigationTreeEnableExpansion" checked="checked"></span><a class="restore-default" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#NavigationTreeEnableExpansion" title="Restaurer la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeShowTables">Afficher les tables dans l'arborescence</label><span class="doc"><a href="http://localhost:1200/doc/html/config.html#cfg_NavigationTreeShowTables" target="documentation"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Pour afficher les tables dans l'arborescence de navigation</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationTreeShowTables" id="NavigationTreeShowTables" checked="checked"></span><a class="restore-default" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#NavigationTreeShowTables" title="Restaurer la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeShowViews">Afficher les vues dans l'arborescence</label><span class="doc"><a href="http://localhost:1200/doc/html/config.html#cfg_NavigationTreeShowViews" target="documentation"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Pour afficher les vues dans l'arborescence de navigation</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationTreeShowViews" id="NavigationTreeShowViews" checked="checked"></span><a class="restore-default" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#NavigationTreeShowViews" title="Restaurer la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeShowFunctions">Afficher les fonctions dans l'arborescence</label><span class="doc"><a href="http://localhost:1200/doc/html/config.html#cfg_NavigationTreeShowFunctions" target="documentation"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Pour afficher les fonctions dans l'arborescence de navigation</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationTreeShowFunctions" id="NavigationTreeShowFunctions" checked="checked"></span><a class="restore-default" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#NavigationTreeShowFunctions" title="Restaurer la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeShowProcedures">Afficher les procédures dans l'arborescence</label><span class="doc"><a href="http://localhost:1200/doc/html/config.html#cfg_NavigationTreeShowProcedures" target="documentation"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Pour afficher les procédures dans l'arborescence de navigation</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationTreeShowProcedures" id="NavigationTreeShowProcedures" checked="checked"></span><a class="restore-default" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#NavigationTreeShowProcedures" title="Restaurer la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeShowEvents">Afficher les évènements dans l'arborescence</label><span class="doc"><a href="http://localhost:1200/doc/html/config.html#cfg_NavigationTreeShowEvents" target="documentation"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Pour afficher les événements dans l'arborescence de navigation</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationTreeShowEvents" id="NavigationTreeShowEvents" checked="checked"></span><a class="restore-default" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#NavigationTreeShowEvents" title="Restaurer la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr></tbody></table></fieldset><fieldset class="optbox" id="Navi_databases" style="display: none;"><legend>Bases de données</legend><p>Options d'affichage des bases de données.</p><table width="100%" cellspacing="0"><tbody><tr><th><label for="NavigationTreeDisplayDbFilterMinimum">Nombre minimum de bases de données pour activer le filtre</label><span class="doc"><a href="http://localhost:1200/doc/html/config.html#cfg_NavigationTreeDisplayDbFilterMinimum" target="documentation"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span></th><td><input type="number" name="NavigationTreeDisplayDbFilterMinimum" id="NavigationTreeDisplayDbFilterMinimum" value="30"><a class="restore-default" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#NavigationTreeDisplayDbFilterMinimum" title="Restaurer la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeDbSeparator">Séparateur pour l'arborescence des bases de données</label><span class="doc"><a href="http://localhost:1200/doc/html/config.html#cfg_NavigationTreeDbSeparator" target="documentation"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Chaîne qui sépare les noms de bases de données en niveaux.</small></th><td><input type="text" size="25" name="NavigationTreeDbSeparator" id="NavigationTreeDbSeparator" value="_"><a class="restore-default" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#NavigationTreeDbSeparator" title="Restaurer la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr></tbody></table></fieldset><fieldset class="optbox" id="Navi_tables" style="display: none;"><legend>Tables</legend><p>Options d'affichage des tables.</p><table width="100%" cellspacing="0"><tbody><tr><th><label for="NavigationTreeDefaultTabTable">Cible de l'icône d'accès rapide</label><span class="doc"><a href="http://localhost:1200/doc/html/config.html#cfg_NavigationTreeDefaultTabTable" target="documentation"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span></th><td><select name="NavigationTreeDefaultTabTable" id="NavigationTreeDefaultTabTable"><option value="structure" selected="selected">Structure</option><option value="sql">SQL</option><option value="search">Rechercher</option><option value="insert">Insérer</option><option value="browse">Parcourir</option></select><a class="restore-default" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#NavigationTreeDefaultTabTable" title="Restaurer la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeDefaultTabTable2">Cible de la deuxième icône d'accès rapide</label><span class="doc"><a href="http://localhost:1200/doc/html/config.html#cfg_NavigationTreeDefaultTabTable2" target="documentation"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span></th><td><select name="NavigationTreeDefaultTabTable2" id="NavigationTreeDefaultTabTable2"><option value="" selected="selected"></option><option value="structure">Structure</option><option value="sql">SQL</option><option value="search">Rechercher</option><option value="insert">Insérer</option><option value="browse">Parcourir</option></select><a class="restore-default" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#NavigationTreeDefaultTabTable2" title="Restaurer la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeTableSeparator">Séparateur pour l'arborescence des noms de tables</label><span class="doc"><a href="http://localhost:1200/doc/html/config.html#cfg_NavigationTreeTableSeparator" target="documentation"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Chaîne qui sépare les noms de table en niveaux.</small></th><td><input type="text" size="25" name="NavigationTreeTableSeparator" id="NavigationTreeTableSeparator" value="__"><a class="restore-default" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#NavigationTreeTableSeparator" title="Restaurer la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeTableLevel">Nombre de niveaux pour l'arborescence des tables</label><span class="doc"><a href="http://localhost:1200/doc/html/config.html#cfg_NavigationTreeTableLevel" target="documentation"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span></th><td><input type="number" name="NavigationTreeTableLevel" id="NavigationTreeTableLevel" value="1"><a class="restore-default" href="http://localhost:1200/db_designer.php?db=zoo&amp;token=87d2247c9d4dc8301b468e2ef9c99dd3#NavigationTreeTableLevel" title="Restaurer la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="./localhost_1200 _ db _ zoo _ phpMyAdmin 4.7.9_files/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr></tbody></table></fieldset></div>
+</form>
+<script type="text/javascript">
+if (typeof configInlineParams === "undefined" || !Array.isArray(configInlineParams)) configInlineParams = [];
+configInlineParams.push(function() {
+validateField('FirstLevelNavigationItems', 'PMA_validatePositiveNumber', true);
+validateField('NumRecentTables', 'PMA_validateNonNegativeNumber', true);
+validateField('NumFavoriteTables', 'PMA_validateNonNegativeNumber', true);
+validateField('MaxNavigationItems', 'PMA_validatePositiveNumber', true);
+validateField('NavigationTreeTableLevel', 'PMA_validatePositiveNumber', true);
+$.extend(PMA_messages, {
+	'error_nan_p': 'Nombre non positif !',
+	'error_nan_nneg': 'Nombre non négatif !',
+	'error_incorrect_port': 'Numéro de port invalide !',
+	'error_invalid_value': 'Valeur incorrecte !',
+	'error_value_lte': 'La valeur doit être égale ou plus petite que %s !'});
+$.extend(defaultValues, {
+	'ShowDatabasesNavigationAsTree': true,
+	'NavigationLinkWithMainPanel': true,
+	'NavigationDisplayLogo': true,
+	'NavigationLogoLink': 'index.php',
+	'NavigationLogoLinkWindow': ['main'],
+	'NavigationTreePointerEnable': true,
+	'FirstLevelNavigationItems': '100',
+	'NavigationTreeDisplayItemFilterMinimum': '30',
+	'NumRecentTables': '10',
+	'NumFavoriteTables': '10',
+	'MaxNavigationItems': '50',
+	'NavigationTreeEnableGrouping': true,
+	'NavigationTreeEnableExpansion': true,
+	'NavigationTreeShowTables': true,
+	'NavigationTreeShowViews': true,
+	'NavigationTreeShowFunctions': true,
+	'NavigationTreeShowProcedures': true,
+	'NavigationTreeShowEvents': true,
+	'NavigationTreeDisplayDbFilterMinimum': '30',
+	'NavigationTreeDbSeparator': '_',
+	'NavigationTreeDefaultTabTable': ['structure'],
+	'NavigationTreeDefaultTabTable2': [''],
+	'NavigationTreeTableSeparator': '__',
+	'NavigationTreeTableLevel': '1'});
+});
+if (typeof configScriptLoaded !== "undefined" && configInlineParams) loadInlineConfig();
+</script></div></div><div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix"><div class="ui-dialog-buttonset"><button type="button" class="ui-button ui-corner-all ui-widget">Appliquer</button><button type="button" class="ui-button ui-corner-all ui-widget">Annuler</button></div></div><div class="ui-resizable-handle ui-resizable-n" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-w" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-ne" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-nw" style="z-index: 90;"></div></div></body></html>
